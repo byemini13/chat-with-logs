@@ -1,0 +1,10 @@
+fastapi[all]
+starlette
+uvicorn
+boto3
+requests
+openai
+faiss-cpu
+numpy
+pydantic
+python-dotenv
