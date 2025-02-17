@@ -73,7 +73,7 @@ def get_logs_with_context(log_group, start_timestamp, end_timestamp, error_messa
 
 
 # Example usage
-log_group = "/aws/containerinsights/nonprod/application"
+log_group = "tbd"
 
 #absolute time
 # 🔹 Set a precise start & end time (e.g., Feb 10, 2025, 16:45 to 16:55 UTC)
@@ -85,8 +85,8 @@ end_timestamp = int(end_time.timestamp())
 #relative time 
 #start_timestamp = datetime.now(timezone.utc) - timedelta(hours=12)  # Last 1 hour
 #end_timestamp = datetime.now(timezone.utc)
-error_message = "QueryComposerFactory "
-log_stream = "qa_aro-service"  # Specify the exact log stream name
+error_message = "tbd "
+log_stream = "tbd"  # Specify the exact log stream name
 
 logs = get_logs_with_context(log_group, start_time, end_time, error_message, log_stream)
 
